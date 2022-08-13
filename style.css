@@ -1,0 +1,32 @@
+ div a span {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #348c77;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+a :hover
+{
+    font-size: 150%;
+}
+div {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:#3ca993;
+    margin:0; 
+    padding:0;
+}
+#denglu {
+     font-size: 30px;
+     font-family:monospace;
+}
+.np {
+    list-style: none;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嘿嘿嘿</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav {
+            height: 50px;
+            background-color: pink;
+        }
+
+        .box {
+            height: 500px;
+            width: 580px;
+            background-color: #fff;
+            margin: 0 auto;
+        }
+
+        .box ul .pic {
+            width: 100%;
+            height: 387px;
+            background-image: url(images/动1.gif);
+            background-repeat: no-repeat;
+        }
+
+
+        .ending {
+            width: 580px;
+
+            height: 100px;
+            margin: 0 auto;
+
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .box ul .text {
+            height: 113px;
+            text-align: center;
+            font-family: FZShuTi;
+            font-size: 26px;
+
+        }
+
+        .srkl {
+            overflow: hidden;
+            /* 强制文字在一行内显示 */
+            white-space: nowrap;
+            width: 130px;
+            margin: 0 auto;
+            animation: dazi 2s steps(5) forwards;
+        }
+
+        @keyframes dazi {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 130px;
+            }
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .ending {
+            background-color: pink;
+        }
+
+        .ending div {
+            height: 50px;
+            width: 150px;
+            margin: 25px 10px;
+            border: 2px solid rgba(0, 0, 0, 0.3);
+
+        }
+
+        .ending div a {
+            line-height: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 25px;
+            font-family: YouYuan;
+
+        }
+
+        .ending a {
+            color: #000;
+
+        }
+
+        .ending .op1 a:hover {
+            font-size: 200%;
+            color: #e34e26;
+        }
+
+        .ending .op2 a:hover {
+            font-size: 200%;
+            color: #0070ba;
+
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav"></div>
+    <div class="box">
+        <ul>
+            <li class="pic"></li>
+            <li class="text">
+                <p><img src="images/yy.jpg" alt=""></p>
+                <div class="srkl">
+                    生日快乐!
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <div class="ending">
+        <div class="op1 fl center">
+            <a href="喜欢的话.html">我喜欢</a>
+        </div>
+        <div class="op2 fr center">
+            <a href="不喜欢的话.html">我不喜欢</a>
+        </div>
+    </div>
+</body>
+
+</html>
